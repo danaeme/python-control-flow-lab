@@ -33,7 +33,7 @@ def determine_season():
     else:
         season = "Enter a valid date."
     
-    print(season)
+    print(f"{month} {day} is in {season}.")
 
 # Call the function
 determine_season()
